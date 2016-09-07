@@ -16,13 +16,19 @@ $(function() {
         $('html, body').animate({scrollTop:target_top}, 1500);
     });
 
+    //Header во весь экран
+    function heightDetect(){
 
-    //SVG Fallback
-    if(!Modernizr.svg) {
-        $("img[src*='svg']").attr("src", function() {
-            return $(this).attr("src").replace(".svg", ".png");
-        });
-    };
+        $("header").css("height", $(window).height());
+        $(".wrapper").css("height", $(window).height());
+
+    }
+
+    heightDetect();
+    $(window).resize(function() {
+        heightDetect();
+    });
+
 
     //E-mail Ajax форма
     //Documentation & Example: https://github.com/agragregra/uniMail

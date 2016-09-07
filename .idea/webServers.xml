@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b32e69c8-6d84-462b-b6c8-8936b07a8ee4" name="jamal" url="http://rocky.beget.com">
+        <fileTransfer host="rocky.beget.com" port="21" password="dfc7dfcbdfd8dfcbdfdedf9ddf9ddfe5" username="vore77_jamal">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

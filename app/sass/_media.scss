@@ -19,14 +19,21 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
-  /**/
+
+
 }
 
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-  /**/
+  header{
+    .child{
+      p{
+        font-size:em(24px);
+      }
+    }
+  }
 }
 
 
