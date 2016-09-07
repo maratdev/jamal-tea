@@ -21,6 +21,8 @@ $(function() {
 
         $("header").css("height", $(window).height());
         $(".wrapper").css("height", $(window).height());
+        $(".wrapper-home_center").css("height", $(window).height());
+        $(".wrapper-home_right").css("height", $(window).height());
 
     }
 
@@ -29,6 +31,13 @@ $(function() {
         heightDetect();
     });
 
+    //Owl initializer
+    $(".owl-carousel").owlCarousel({
+        items:1,
+        margin:30,
+        stagePadding:30,
+        smartSpeed:450
+    });
 
     //E-mail Ajax форма
     //Documentation & Example: https://github.com/agragregra/uniMail

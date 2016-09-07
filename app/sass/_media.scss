@@ -42,6 +42,26 @@
 @media only screen and (max-width : 320px){
   /**/
 }
+@media screen and (max-height: 480px) {
+  html .wrapper {
+    min-height: 510px;
+  }
+}
+@media screen and (max-height: 568px) {
+  html .wrapper {
+    min-height: 600px;
+  }
+}
+@media screen and (max-height: 627px) {
+  html .wrapper {
+    min-height: 660px;
+  }
+}
+@media screen and (max-height: 736px) {
+  html .wrapper {
+    min-height: 770px;
+  }
+}
 
 
 

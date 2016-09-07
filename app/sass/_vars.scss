@@ -1,4 +1,6 @@
 @import "bourbon";
 
 $default-font: "roboto", sans-serif;
-$accent: orange;
+@mixin outline($color){
+  outline: 1px solid $color;
+}
