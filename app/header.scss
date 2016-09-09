@@ -64,10 +64,57 @@ header{
       background-color: #f8f8f8;
     .owl-carousel{
       height: 100%;
+
+      .owl-item{
+        .title{
+          display: block;
+          zoom: 1;
+          width: 380px;
+          height: 350px;
+          text-indent: -6000px;
+          text-align: left;
+          position: relative;
+          top: auto;
+          left: auto;
+          right: auto;
+          margin: 0px auto;
+        }
+      }
+
       img{
         max-width:65%;
         display: block;
         margin: 0 auto;
+      }
+    }
+    .owl-nav{
+      position: absolute;
+      top:60%;
+      width: 100%;
+      div.owl-prev{
+        background-position: 0px 0px;
+        left: 10%;
+      }
+      div.owl-next{
+        background-position: -23px 0;
+        left: 82%;
+      }
+      div{
+        background:url("../img/sprite.png") no-repeat  center center ;
+        display: inline-block;
+        zoom: 1;
+        width: 24px;
+        height: 41px;
+        text-indent: -6000px;
+        text-align: left;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        z-index: 1000;
+        cursor: pointer;
+
+
       }
     }
   }
@@ -78,22 +125,27 @@ header{
     height: 100%;
       .box-1{
         @include outline(red);
-        height: 54%;
-        background-color: #00a000;
+        max-height: 54%;
+        //background:url("../img/layer/1.jpg") no-repeat center;
+        //background-size: cover;
+        padding: 0;
       }
       .box-2{
         @include outline(red);
         height: 46%;
-        background-color: #4a90e2;
+        padding: 0;
       }
       .box-3{
         @include outline(green);
         height: 46%;
-        background-color: #00a2ff;
+        padding: 0;
       }
+
+
   }
 
 
 }
+
 
 //First screen styles
